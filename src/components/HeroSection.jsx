@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 
 export default function HeroSection() {
   return (
-    <main className="relative min-h-screen mx-auto w-[90%] overflow-hidden">
+    <main className="relative min-h-screen mx-auto w-[90%] overflow-hidden" style={{fontFamily: 'var(--font-playfair)'}}>
       <div className="absolute inset-0">
         <video
           autoPlay
@@ -24,8 +24,8 @@ export default function HeroSection() {
           <h2 className="text-lg font-light md:text-xl mb-10">
             Empowering adults through evidence-based therapy, self-discovery, and emotional wellness — available via telehealth in Michigan and most U.S. states through PSYPACT.
           </h2>
-          <Button size={"lg"}>
-            Book a Consultation
+          <Button className="bg-[#118ab2] text-white px-6 py-3 rounded-md shadow-lg hover:bg-[#0f7a9c] transition-colors">
+            Schedule a Free Consultation
           </Button>
         </div>
       </div>

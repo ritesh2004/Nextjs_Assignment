@@ -44,9 +44,9 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-body {
-  font-family: "Playfair_Display", sans-serif;
-}
+/* body {
+  font-family: var(--font-playfair), sans-serif, var(--font-inter);
+} */
 
 :root {
   --radius: 0.625rem;
